@@ -1,6 +1,6 @@
 import numpy as np
 
-n = 2  # systems
+n = 2  # count of func
 
 
 def result_for_method(f, h, yk):
@@ -37,7 +37,7 @@ def result_derivative(x, y, f):
     return f(x, y)
 
 
-def result_rynge_kyta(a, b, h, f_arr):
+def result_rynge_kyta(a, b, h, f_arr): # a - left b - right h - step f_arr - arr of func
     yp = []
     yk = [0.0, 1.0]
     yp.append(yk)
